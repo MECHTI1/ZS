@@ -37,7 +37,6 @@ def get_db_connection():
             user_id = os.getenv('DB_USER')
             password = os.getenv('PASSWORD')
             host = os.getenv('HOST')
-
             conn = psycopg2.connect(dbname="zincsight_pipeline_db", user=user_id, host=host, password=password)
 
         else:
