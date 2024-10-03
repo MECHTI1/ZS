@@ -6,3 +6,7 @@ src/temp/
 
 # Ignore logs
 #*.log
+
+src/Query AlphaFold structures
+src/results
+
